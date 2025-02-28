@@ -7,6 +7,9 @@ import datetime
 # Routing for your application.
 ###
 
+def format_date_joined(date):
+    return date.strftime("%B, %Y")  
+    
 @app.route('/profile')
 def profile():
     profile_info = {
@@ -23,9 +26,6 @@ def profile():
 
     return render_template("profile.html", profile=profile_info)
 
-def format_date_joined(date):
-    """Format the join date as 'Month, Year'."""
-    return date.strftime("%B, %Y")  # Example: "February, 2019"
 
 @app.route('/')
 def home():
