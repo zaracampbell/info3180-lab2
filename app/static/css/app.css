@@ -38,14 +38,21 @@ h2 {
 }
 
 .follow-info {
-    text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Adjust space between items */
     margin: 15px 0;
-    border-top: 1px solid #ddd;
     padding-top: 10px;
     font-size: 18px;
     color: black;
 }
+
+.follow-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* Follow Button */
 .follow-btn {
