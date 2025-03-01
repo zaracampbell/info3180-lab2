@@ -2,6 +2,15 @@ body {
     padding-top: 5rem;
 }
 
+h1 {
+    font-family: Times New Roman, sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+}
 /* Profile Container */
 .profile-container {
     text-align: center;
