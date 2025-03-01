@@ -18,9 +18,9 @@ def profile():
         "location": "Kingston, Jamaica",
         "date_joined": format_date_joined(datetime.date(2025, 2, 1)),  # Example date
         "bio": "I am a young and passionate computing student with a love for helping others and making a difference. I am currently doing WEB DEVELOPMENT II-INFO3180 where I am expanding my knowledge on Python and learning Flask.",
-        "num_posts": 10,
-        "num_followers": 1032,
-        "num_following": 700,
+        "posts": 10,
+        "followers": 1032,
+        "following": 700,
         "profile_image": "profile.jpeg"  # Ensure this image is in the 'static' folder
     }
 
