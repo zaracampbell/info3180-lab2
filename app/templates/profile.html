@@ -2,10 +2,8 @@
 
 {% block main %}
 <div class="profile-container">
-    <!-- Header with green background -->
-    <div class="profile-header">
-        <img src="{{ url_for('static', filename=profile.jpeg) }}" alt="Profile Picture" class="profile-img">
-    </div>
+    <img src="{{ url_for('static', filename='profile.jpeg') }}" alt="Profile Picture">
+</div>
 
     <!-- Profile Info -->
     <div class="profile-info">
