@@ -17,7 +17,7 @@ def profile():
         "username": "zara_christina",
         "location": "Kingston, Jamaica",
         "date_joined": format_date_joined(datetime.date(2025, 2, 1)),  # Example date
-        "bio": "I am a young and passionate computing student with a love for helping others and making a difference. I am currently doing WEB DEVELOPMENT II-INFO3180 where I am expanding my knowledge on Python and learning Flask.",
+        "bio": "I am a young and proud Jamaican who has a passion for computing and web development. I am also very passionate about my family and friends with whom I love spending time with. I aspire to always give back to my community.",
         "posts": 10,
         "followers": 1032,
         "following": 700,
