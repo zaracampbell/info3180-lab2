@@ -4,7 +4,7 @@
 <div class="profile-container">
     <img src="{{ url_for('static', filename='profile.jpeg') }}" alt="Profile Picture">
     <h1 class="profile-name">{{ profile.full_name }}</h1>
-    <h3 class="profile-username">@{{ profile.username }}</h3>
+    <h2 class="profile-username">@{{ profile.username }}</h2>
     <p class="profile-location">{{ profile.location }}</p>
     <p class="profile-joined">Joined {{ profile.date_joined }}</p>
 
