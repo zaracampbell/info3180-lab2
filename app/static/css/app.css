@@ -35,9 +35,8 @@ body {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 15px;
 }
 
 .follow-btn:hover {
