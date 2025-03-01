@@ -12,11 +12,20 @@
     <p class="bio-text">{{ profile.bio }}</p>
 
     <!-- following/followers/posts format -->
-    <p class="follow-info">
-        Posts <strong>{{ profile.posts }}</strong>  
-        Followers <strong>{{ profile.followers }}</strong>  
-        Following <strong>{{ profile.following }}</strong>
-    </p>
+    <div class="follow-info">
+        <div class="follow-item">
+            <strong>{{ profile.posts }}</strong>
+            <span>Posts</span>
+        </div>
+        <div class="follow-item">
+            <strong>{{ profile.followers }}</strong>
+            <span>Followers</span>
+        </div>
+        <div class="follow-item">
+            <strong>{{ profile.following }}</strong>
+            <span>Following</span>
+        </div>
+    </div>
 
     <!-- Follow Button -->
     <p class="profile-action">
