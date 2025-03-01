@@ -11,18 +11,18 @@ h2 {
     font-family: Georgia, sans-serif;
     font-size: 20px;
 }
-/* Profile Container */
+
 .profile-container {
     text-align: center;
     padding: 50px;
     margin: 0 auto;
-    background: linear-gradient(to bottom, #98FB98 58%, white 42%);
+    background: linear-gradient(to bottom, #98FB98 57%, white 43%);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
-/* Profile Image */
+
 .profile-container img {
     width: 150px;
     height: 150px;
@@ -54,7 +54,7 @@ h2 {
 }
 
 
-/* Follow Button */
+
 .follow-btn {
     background: #98FB98;
     color: white;
