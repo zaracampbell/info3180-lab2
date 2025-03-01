@@ -14,25 +14,14 @@
     </div>
 
     <!-- Bio -->
-    <div class="profile-bio">
-        <p>{{ profile.bio }}</p>
-    </div>
+    <p class="bio-text">{{ profile.bio }}</p>
 
-    <!-- Stats -->
-    <div class="profile-stats">
-        <div class="stat">
-            <strong>{{ profile.num_posts }}</strong>
-            <span>Posts</span>
-        </div>
-        <div class="stat">
-            <strong>{{ profile.num_following }}</strong>
-            <span>Following</span>
-        </div>
-        <div class="stat">
-            <strong>{{ profile.num_followers }}</strong>
-            <span>Followers</span>
-        </div>
-    </div>
+    <!-- following/followers/posts format -->
+    <p class="follow-info">
+        Posts: <strong>{{ profile.posts }}</strong> | 
+        Followers: <strong>{{ profile.followers }}</strong> | 
+        Following: <strong>{{ profile.following }}</strong>
+    </p>
 
     <!-- Follow Button -->
     <div class="profile-action">
