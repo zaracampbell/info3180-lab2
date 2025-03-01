@@ -3,15 +3,10 @@
 {% block main %}
 <div class="profile-container">
     <img src="{{ url_for('static', filename='profile.jpeg') }}" alt="Profile Picture">
-</div>
-
-    <!-- Profile Info -->
-    <div class="profile-info">
-        <h1 class="profile-name">{{ profile.full_name }}</h1>
-        <h3 class="profile-username">@{{ profile.username }}</h3>
-        <p class="profile-location">{{ profile.location }}</p>
-        <p class="profile-joined">Joined {{ profile.date_joined }}</p>
-    </div>
+    <h1 class="profile-name">{{ profile.full_name }}</h1>
+    <h3 class="profile-username">@{{ profile.username }}</h3>
+    <p class="profile-location">{{ profile.location }}</p>
+    <p class="profile-joined">Joined {{ profile.date_joined }}</p>
 
     <!-- Bio -->
     <p class="bio-text">{{ profile.bio }}</p>
@@ -24,8 +19,8 @@
     </p>
 
     <!-- Follow Button -->
-    <div class="profile-action">
+    <p class="profile-action">
         <button class="follow-btn">Follow</button>
-    </div>
+    </p>
 </div>
 {% endblock %}
