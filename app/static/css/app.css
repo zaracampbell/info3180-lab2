@@ -28,17 +28,6 @@ body {
     margin-bottom: 15px;  
 }
 
-.follow-info {
-    text-align: center;
-    justify-content: space-around;
-    margin: 15px 0;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-    display: flex;
-    font-size: 18px;
-    color: black;
-}
-
 /* Follow Button */
 .follow-btn {
     background: #98FB98;
