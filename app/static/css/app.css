@@ -21,54 +21,11 @@ body {
 }
 
 /* Profile Info */
-.profile-info {
-    padding-top: 80px;
-    padding-bottom: 10px;
-}
-
-.profile-name {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.profile-username {
-    color: gray;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.profile-location,
-.profile-joined {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 5px;
-}
-
-/* Bio */
-.profile-bio {
-    font-size: 14px;
-    padding: 10px 20px;
-    color: #333;
-}
-
-/* Stats */
-.profile-stats {
-    display: flex;
-    justify-content: space-around;
-    margin: 15px 0;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-}
-
-.stat {
-    text-align: center;
-}
-
-.stat strong {
-    display: block;
-    font-size: 18px;
-    color: black;
+.bio-text {
+    text-align: justify;
+    max-width: 600px;  
+    margin: 0 auto;    
+    margin-bottom: 15px;  
 }
 
 /* Follow Button */
