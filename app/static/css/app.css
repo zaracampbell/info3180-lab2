@@ -4,32 +4,20 @@ body {
 
 /* Profile Container */
 .profile-container {
-    width: 350px;
-    margin: 40px auto;
-    background: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #39FF14 52%, white 48%);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden;
 }
 
-/* Green Header Background */
-.profile-header {
-    background: linear-gradient(135deg, #3ca55c, #b5ac49);
-    padding: 40px 0;
-    position: relative;
-}
 
 /* Profile Image */
-.profile-img {
-    width: 120px;
-    height: 120px;
+.profile-container img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 3px solid white;
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 /* Profile Info */
